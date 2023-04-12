@@ -8,7 +8,8 @@ createApp({
       messaggio: '',
       messaggioVText: 'messaggio con v-text',
       messaggioVHtml: 'messaggio con <strong>v-html</strong>',
-      colore: 'red'
+      colore: 'red',
+      toUppercase: 'uppercase'
     }
   }
 }).mount('#app')

@@ -7,3 +7,6 @@
 .blue {
   color: blue;
 }
+.uppercase {
+  text-transform: uppercase;
+}
