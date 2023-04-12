@@ -7,7 +7,8 @@ createApp({
       cognome: 'pallo',
       messaggio: '',
       messaggioVText: 'messaggio con v-text',
-      messaggioVHtml: 'messaggio con <strong>v-html</strong>'
+      messaggioVHtml: 'messaggio con <strong>v-html</strong>',
+      colore: 'red'
     }
   }
 }).mount('#app')

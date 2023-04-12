@@ -5,15 +5,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="https://unpkg.com/vue@3"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id="app">
-    <input type="text" v-model="messaggio">
     <h1>Ciao {{nome}} {{cognome}}</h1>
+    <input type="text" v-model="messaggio">
     <p>{{messaggio}}</p>
+    <hr>
     <h2 v-text="messaggioVText"></h2>
     <p v-html="messaggioVHtml"></p>
+    <hr>
+    <p :class="colore">
+      paragrafo con classe
+    </p>
+
   </div>
   <script src="script.js"></script>
 </body>
